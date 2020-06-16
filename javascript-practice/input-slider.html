@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marklchaves/cme-styles@1.0.0/dist/cme-styles.min.css">
+    <link rel="stylesheet" href="input-slider.css" />
+  </head>
+  <body>
+    <div class="field-label">Value: <span id="sel-val"></span></div>
+    <div class="slider-wrapper">
+      <input
+        type="range"
+        min="1"
+        max="100"
+        value="1"
+        class="slider"
+        id="myRange"
+      />
+    </div>
+    <div id="units-wrapper" class="field-label">
+      <select id="units" name="units">
+        <option>px</option>
+        <option selected>rem</option>
+        <option>em</option>
+      </select>
+    </div>
+    <div id="size" class="field-label"></div>
+    <script src="input-slider.js"></script>
+  </body>
+</html>
