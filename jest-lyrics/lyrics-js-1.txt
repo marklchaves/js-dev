@@ -1,0 +1,16 @@
+class Lyrics {
+    constructor() {
+      this.lineArr = ["I saw her today at the reception.", "Hi!"];
+    }
+  
+    line(l) {
+      return this.lineArr[l];
+    }
+  
+    lines(s, f) {
+      return "hiya again!";
+    }
+  }
+  
+  module.exports = Lyrics;
+  
