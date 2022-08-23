@@ -1,6 +1,3 @@
-/**
- * Completed example
- */
 class Lyrics {
     constructor() {
       this.lineArr = [

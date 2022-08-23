@@ -1,0 +1,10 @@
+class Lyrics {
+    constructor() {
+    }
+  
+    line() {
+    }
+  }
+  
+  module.exports = Lyrics;
+  

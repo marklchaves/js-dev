@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jest": "^28.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
